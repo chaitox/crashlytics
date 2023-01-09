@@ -1,0 +1,3 @@
+dependencies:
+  agconnect_core: ^1.3.0+300
+  agconnect_crash_plus: ^3.0.1

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "642405673125",
+    "project_id": "fir-crashlytics-77c69",
+    "storage_bucket": "fir-crashlytics-77c69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642405673125:android:d0bf5be58d55422ab8c54c",
+        "android_client_info": {
+          "package_name": "com.example.democrashlytics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642405673125-6c9top589i38vfj8jlkvrg5rg89o8fmu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnSsDS1fwOOrqFyPrtx0C6N30Vw7Jr-rE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642405673125-6c9top589i38vfj8jlkvrg5rg89o8fmu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

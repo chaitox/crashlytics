@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"command": "./huawei",
+			"problemMatcher": [],
+			"label": "huaweiTask",
+		},
+		{
+			"type": "shell",
+			"command": "./google",
+			"problemMatcher": [],
+			"label": "googleTask",
+		}
+	]
+}
