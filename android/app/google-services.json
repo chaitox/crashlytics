@@ -29,6 +29,13 @@
             {
               "client_id": "642405673125-6c9top589i38vfj8jlkvrg5rg89o8fmu.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "642405673125-78tai9jt1cf5uq7ugafqtkbpp9s0m9c4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.democrashlytics"
+              }
             }
           ]
         }

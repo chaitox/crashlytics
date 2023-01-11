@@ -1,22 +1,21 @@
 import 'dart:async';
 
+import 'package:agconnect_core/agconnect_core.dart';
 import 'package:agconnect_crash_plus/agconnect_crash_plus.dart';
 
 import 'package:flutter/material.dart';
 
-import 'core.dart';
+//import 'core.dart';
 import 'crash_service.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  AGCApp.instance.setClientId(clientId: '1065521752018276096');
+  AGCApp.instance.setClientId('1065521752018276096');
   AGCApp.instance.setClientSecret(
-      clientSecret:
-          '0798093862181758C001E0CB26ED043C9C485985AFFCBE9C5ECA1027950A2490');
+      '0798093862181758C001E0CB26ED043C9C485985AFFCBE9C5ECA1027950A2490');
   AGCApp.instance.setApiKey(
-      apiKey:
-          'DAEDAB2Wwh2srnvdEiL4Y/uXjONLNEv8H7KmuKg7Z+SA5EholeJgZlvRYWb658vnJI+KXfG72PUTq8Pfixq4Y/66M264g4aLdIbzjw==');
+      'DAEDAB2Wwh2srnvdEiL4Y/uXjONLNEv8H7KmuKg7Z+SA5EholeJgZlvRYWb658vnJI+KXfG72PUTq8Pfixq4Y/66M264g4aLdIbzjw==');
 
   runZonedGuarded(() {
     Future(() {

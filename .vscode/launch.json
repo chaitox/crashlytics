@@ -13,7 +13,8 @@
             "preLaunchTask": "huaweiTask",
             "args": [
                 "--flavor",
-                "huawei"
+                "huawei",
+                "--no-sound-null-safety"
             ],
         },
         {

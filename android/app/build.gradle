@@ -29,7 +29,7 @@ if (taskName.contains("google")||taskName.contains("ios")){
 apply plugin: 'com.google.firebase.crashlytics'
 }
 if (taskName.contains("huawei")){
-   
+   println('implementar huawei: com.huawei.agconnect')
     apply plugin: 'com.huawei.agconnect'
 }
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
@@ -93,6 +93,8 @@ flutter {
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
       if (taskName.contains("huawei")){
+         println('implementar huawei: agconnect-core')
+          println('implementar huawei: agconnect-crash')
     implementation 'com.huawei.agconnect:agconnect-core:1.5.2.300'
     implementation 'com.huawei.agconnect:agconnect-crash:1.4.2.301'
       }

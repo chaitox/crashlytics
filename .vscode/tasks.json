@@ -3,13 +3,13 @@
 	"tasks": [
 		{
 			"type": "shell",
-			"command": "./huawei",
+			"command": "dart merge/bin/merge.dart --device=huawei", //./huawei",
 			"problemMatcher": [],
 			"label": "huaweiTask",
 		},
 		{
 			"type": "shell",
-			"command": "./google",
+			"command": "dart merge/bin/merge.dart --device=google", // "./google",
 			"problemMatcher": [],
 			"label": "googleTask",
 		}
